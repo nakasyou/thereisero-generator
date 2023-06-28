@@ -1,0 +1,48 @@
+<!doctype html>
+ 
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    
+    <title>エロあるよ(笑) ジェネレーター</title>
+    <meta name="description" content="エロあるよ ジェネレーター。エロあるよを作成するよ" />
+     
+    <style>
+#result {
+  width: 100vmin;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Sans-Serif;
+}
+
+.text-center {
+  text-align: center;
+}
+.mx-auto {
+  margin: 0 auto;
+}
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+    </style>
+  </head>
+  <body>
+    <h1>${title}</h1>
+    <div class="text-center my-2">
+      <textarea id="textarea" placeholder="ここに入力" class="text-center">エロないよ(泣)</textarea>
+    </div>
+    <div class="text-center">
+      <canvas id="canvas" hidden></canvas>
+      <img id="result">
+      <div>↑保存できるよ</div>
+    </div>
+    <img id="eroaruyo-raw" hidden>
+    <script src="main.js"></script>
+  </body>
+</html>
+
